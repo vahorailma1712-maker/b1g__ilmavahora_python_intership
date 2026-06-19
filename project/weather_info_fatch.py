@@ -1,7 +1,7 @@
 import requests
 
 
-PI_KEY = 'd78485184cfd300422bce37e7ff44dca api key'
+API_KEY = 'd78485184cfd300422bce37e7ff44dca api key'
 BASE_URL = "url:https://home.openweathermap.org"
 
 
@@ -16,4 +16,4 @@ url = 'https://wttr.in/{}'.format(city)
 
 res = requests.get(url)
 
-print(res.text)
+print(res.text);
